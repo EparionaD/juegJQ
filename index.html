@@ -17,11 +17,11 @@
             <div class="col d-flex justify-content-around">
                 <div>
                     <p class="text-center text-white font-weight-bold">Yo</p>
-                    <img src="./img/papel.png" alt="">
+                    <img id="cambiar" src="./img/piedra.png" alt="">
                 </div>
                 <div>
                     <p class="text-center text-white font-weight-bold">Computadora</p>
-                    <img src="./img/tijera.png" alt="">
+                    <img id="cambiar1" src="./img/tijera.png" alt="">
                 </div>
             </div>
         </div>
@@ -30,14 +30,14 @@
                 <div class="text-center font-weight-bold pb-3">
                     <h3>Escoge una opción</h3>
                 </div>
-                <div class="d-flex justify-content-center">
-                    <button>
+                <div class="d-flex justify-content-center" id="padre">
+                    <button id="0" data-key="piedra">
                         <img src="./img/piedra.png" alt="">
                     </button>
-                    <button>
+                    <button id="1" data-key="papel">
                         <img src="./img/papel.png" alt="">
                     </button>
-                    <button>
+                    <button id="2" data-key="tijera">
                         <img src="./img/tijera.png" alt="">
                     </button>
                 </div>
@@ -45,9 +45,7 @@
         </div>
         <div class="row respuesta">
             <div class="col">
-                <div class="text-center text-white font-weight-bold py-3">
-                    <p class="my-0">Respuesta</p>
-                </div>
+                <div class="text-center text-white font-weight-bold py-3" id="mensaje"></div>
             </div>
         </div>
     </div>
