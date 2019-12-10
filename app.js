@@ -43,7 +43,9 @@ botones.forEach(function(numero){
         var compu = eleccion();
         //console.log(compu);
         var cambiar = document.getElementById('cambiar').src=`./img/${nombre}.png`;
+        //var cambiar = document.getElementById('cambiar').setAttribute('src',`./img/${nombre}.png`);
         var cambiar1 = document.getElementById('cambiar1').src=`./img/${compu}.png`;
+        //var cambiar1 = document.getElementById('cambiar1').setAttribute('src',`./img/${compu}.png`);
         //Eleccion compu
         function eleccion(){
             var array = ['piedra', 'papel', 'tijera'];
